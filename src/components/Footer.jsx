@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Footer = () => {
+function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <footer className="bg-gray-900 text-center py-4 text-sm text-gray-400">
+      <p>© 2025 Netflix </p>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
